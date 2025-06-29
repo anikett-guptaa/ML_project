@@ -11,6 +11,7 @@ beautifulsoup4==4.13.4
 bleach==6.2.0
 catboost==1.2.8
 certifi==2025.4.26
+flask
 cffi==1.17.1
 charset-normalizer==3.4.2
 comm==0.2.2
