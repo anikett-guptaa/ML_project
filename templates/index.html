@@ -1,1 +1,106 @@
-<h1>Hey welcome</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Student Performance Predictor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+        }
+
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+            max-width: 700px;
+            width: 90%;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: #d1d5db;
+            margin-bottom: 30px;
+        }
+
+        .card button {
+            background-color: #facc15;
+            color: #000;
+            font-size: 1rem;
+            padding: 14px 26px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .card button:hover {
+            background-color: #fbbf24;
+        }
+
+        @media (max-width: 600px) {
+            .card h1 {
+                font-size: 1.8rem;
+            }
+
+            .card p {
+                font-size: 1rem;
+            }
+
+            .card button {
+                font-size: 0.95rem;
+                padding: 12px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>🎓 Welcome to the Student Performance Predictor</h1>
+        <p>Predict a student's math score based on their background<br>and test scores.</p>
+        <a href="/predictdata">
+            <button>Get Started</button>
+        </a>
+    </div>
+</body>
+
+</html>
